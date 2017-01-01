@@ -20,3 +20,25 @@
     "build-storybook": "build-storybook"
   }
 }
+
+{
+  "name": "react-media-objects",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/FatalStrikes/react-media-objects.git",
+  "author": "Fatalstrikes <fatalstrikes@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "styletron-client": "^2.3.0",
+    "styletron-react": "^2.3.0"
+  },
+  "devDependencies": {
+    "@kadira/storybook": "^2.21.0"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
